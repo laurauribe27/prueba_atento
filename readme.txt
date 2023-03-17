@@ -17,3 +17,16 @@ INSERT INTO `people` (`identification`, `name`, `age`, `email`, `number`, `profe
 
 ALTER TABLE `people`
   ADD PRIMARY KEY (`identification`);
+
+
+
+
+
+✓ ¿En qué lugar se ejecuta el código PHP? el código PHP se ejecuta del lado del servidor.
+✓ ¿Cómo pueden interactuar PHP y JavaScript? el js puede interactuar con php usandose como frontend por ejemplo con vue.js
+✓ ¿Cuál es la principal diferencia entre require() y require_once()?  PHP verificará si el archivo ya ha sido incluido y si es así, no se incluye de nuevo
+✓ ¿Cómo es posible exportar data en un archivo de Excel? se puede genrar funciones para exportar directamente en un archivo compatible con excel o usando librerias
+✓ ¿Que es una session? es donde se almacenan datos individuales con id unico
+✓ ¿Cómo se puede propagar una session id? En una cookie (Por defecto), En una variable pasada por parámetro en la URL
+✓ ¿Cómo podemos determinar si una variable tiene un valor asignado? validando si la variable fue creada fija con anterioridad leyendola
+✓ ¿Es posible destruir una cookie? si, rduciendo el tiempo de caducidad
